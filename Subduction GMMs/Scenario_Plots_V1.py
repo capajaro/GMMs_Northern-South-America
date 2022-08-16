@@ -46,13 +46,12 @@ model. The distance range is 10 < Rrup < 450 km for interface earthquakes and
 70 < Rhypo < 450 km for intra-slab. This model is only intended for applications in
 Colombia and Ecuador. For other regions, without region-specific models, the global
 GMMs should be considered.
-    
 """
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from NoSAm_Sub2021 import NoSAm_Sub2021
-
 
 # Name for the .csv with the results and figures
 outfile_name = 'out'
